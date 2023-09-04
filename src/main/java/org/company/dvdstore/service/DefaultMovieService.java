@@ -6,7 +6,7 @@ import org.company.dvdstore.repository.MovieRepositoryInterface;
 public class DefaultMovieService implements MovieServiceInterface{
 
     MovieRepositoryInterface movieRepository;
-//    GoLiveMovieRepository movieRepository = new GoLiveMovieRepository();
+    //    GoLiveMovieRepository movieRepository = new GoLiveMovieRepository();
 
     public void registerMovie(Movie movie){
         movieRepository.add(movie);

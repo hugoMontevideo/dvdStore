@@ -5,7 +5,7 @@ import org.company.dvdstore.repository.MovieRepositoryInterface;
 
 public interface MovieServiceInterface {
 
-    public void registerMovie(Movie movie);
+    void registerMovie(Movie movie);
 
-    public void setMovieRepository(MovieRepositoryInterface movieRepository);
+    void setMovieRepository(MovieRepositoryInterface movieRepository);
 }

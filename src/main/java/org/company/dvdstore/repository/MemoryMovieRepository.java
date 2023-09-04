@@ -11,6 +11,6 @@ public class MemoryMovieRepository implements MovieRepositoryInterface{
     private static List<Movie> movies = new ArrayList<>();
     public void add(Movie movie){
         movies.add(movie);
-        //   System.out.printf("The movie %d has been added", movie.getTitre());
+        System.out.printf("The movie %s has been added to the list \n", movie.getTitre());
     }
 }

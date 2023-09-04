@@ -4,5 +4,5 @@ import org.company.dvdstore.entity.Movie;
 
 public interface MovieRepositoryInterface {
 
-    public void add(Movie movie);
+    void add(Movie movie);
 }
